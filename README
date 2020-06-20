@@ -1,0 +1,34 @@
+Project: Movie Recommendation System
+
+Install folder: /edx_MUR                      ( MUR ~ Movie User Rating )
+
+Files:
+		edX-MovieLens.Rmd             R code + Markdown
+		edX-MovieLens.R               R code 
+		edX-MovieLens.pdf             pdf output
+		
+		Supplementary files for H2o models
+		
+		edX-MovieLens-H2o.Rmd
+		edX-MovieLens-H2o.R
+		edX-MovieLens-H2o.pdf
+		
+Notes:
+		All R code is tested on Windows OS only. Mac was excluded.
+		A flag in the code, controls if models are to be generated for each code run or not. This is to save time, due to huge dataset and multiple algorithms involved. However, predictions are done on test data for each run of the code.
+
+Pre-fitted Model files:
+
+		Matrix_2.Rdata
+		Matrix_1.Rdata
+		Collab_1.Rdata
+		Collab_2.Rdata
+		
+Dataset files:
+
+		edx.Rdata
+		Validation.Rdata
+		
+Approximate run-time of code
+		Flag = OFF, 20 minutes
+		Flag = ON, > 24 hours
